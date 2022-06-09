@@ -1,0 +1,39 @@
+.fighter-preview___root {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 250px;
+}
+
+.fighter-preview___right {
+  align-items: flex-end;
+}
+
+.fighter-preview___right img {
+  transform: scaleX(-1);
+}
+
+.fighter-preview___left {
+  align-items: flex-start;
+}
+
+.fighter-info {
+  background: #ffdfa7;
+  border: 5px solid #ca9650;
+  padding: 10px;
+  list-style: none;
+  width: 100%;
+  text-align: center;
+}
+
+.fighter-info__item {
+  margin-bottom: 6px;
+}
+
+.fighter-info__item:last-child {
+  margin-bottom: 0;
+}
+
+.fighter-info__item span {
+  text-transform: capitalize;
+  font-weight: bold;
+}
